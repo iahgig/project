@@ -1,0 +1,459 @@
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 16:47:41
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.7, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9459405778146557,loss_clf:0.25205560748848305,loss_MI:0.6938849703261727,prec:0.8421052631578947,rec:0.3004385964912281,f1:0.41804511278195494
+Test result:loss:0.9478231338531865,loss_clf:0.2538019883504603,loss_MI:0.6940211455027262,prec:1.0,rec:0.21825396825396823,f1:0.3194444444444444
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 17:01:43
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.7, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:1.0026203011966708,loss_clf:0.30824330080205053,loss_MI:0.6943770003946204,prec:1.0,rec:0.0,f1:0.0
+Test result:loss:1.01313869844088,loss_clf:0.31853915939936067,loss_MI:0.6945995390415192,prec:1.0,rec:0.0,f1:0.0
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 17:32:08
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:1.0168871579218983,loss_clf:0.32302740413658837,loss_MI:0.69385975378531,prec:1.0,rec:0.0,f1:0.0
+Test result:loss:0.9625722614033577,loss_clf:0.2687912431462166,loss_MI:0.6937810182571411,prec:1.0,rec:0.058823529411764705,f1:0.058823529411764705
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 17:46:22
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 16, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:1.015289947796008,loss_clf:0.32283781123087035,loss_MI:0.6924521365651378,prec:1.0,rec:0.3425925925925926,f1:0.3425925925925926
+Test result:loss:0.9735748064059477,loss_clf:0.2810667287844878,loss_MI:0.6925080776214599,prec:1.0,rec:0.38461538461538464,f1:0.38461538461538464
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 20:12:42
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 16, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:2.1405008706247566,loss_clf:1.4459620096635137,loss_MI:0.694538860961243,prec:0.8380695179306291,rec:0.6085410474299361,f1:0.6908784951591107
+Test result:loss:3.0687016775341207,loss_clf:2.3739896604014348,loss_MI:0.6947120171326857,prec:0.11278998778998778,rec:0.9,f1:0.17545787545787547
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 20:28:26
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 16, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:1.3307474607131482,loss_clf:0.6382824627902154,loss_MI:0.6924649979229327,prec:0.866992344075677,rec:0.9105699855699855,f1:0.8769252444863034
+Test result:loss:2.7905530938172114,loss_clf:2.0978694575920245,loss_MI:0.6926836362251869,prec:0.12467643467643469,rec:0.9456410256410257,f1:0.19621933621933624
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 20:47:59
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 16, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:1.3307474607131482,loss_clf:0.6382824627902154,loss_MI:0.6924649979229327,prec:0.866992344075677,rec:0.9105699855699855,f1:0.8769252444863034
+Test result:loss:1.6736757029350102,loss_clf:0.9813069140324341,loss_MI:0.6923687889025761,prec:0.8155855255855257,rec:0.8029341598572367,f1:0.7920842401320155
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-27 21:17:50
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:1.0531485954268118,loss_clf:0.3596862368461165,loss_MI:0.6934623585806953,prec:0.936479241960827,rec:0.9553852406441193,f1:0.9450945126040631
+Test result:loss:1.222394819603739,loss_clf:0.5290256063311956,loss_MI:0.6933692132725435,prec:0.8722928692673906,rec:0.955212123587537,f1:0.9107918764917194
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 09:45:51
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:1.0896607863814134,loss_clf:0.4036501182291564,loss_MI:0.686010668152257,prec:0.9757806263019698,rec:0.8783901732490634,f1:0.9235877214021098
+Test result:loss:1.1575386569112245,loss_clf:0.47183623783935774,loss_MI:0.6857024190718668,prec:0.9633787238563571,rec:0.8479433619421463,f1:0.9009705207136389
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 10:00:39
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:1.0896607863814134,loss_clf:0.4036501182291564,loss_MI:0.686010668152257,prec:0.9757806263019698,rec:0.8783901732490634,f1:0.9235877214021098
+Test result:loss:1.1575386569112245,loss_clf:0.47183623783935774,loss_MI:0.6857024190718668,prec:0.9633787238563571,rec:0.8479433619421463,f1:0.9009705207136389
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 10:11:36
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.867137660676401,loss_clf:0.17855697095336948,loss_MI:0.6885806897230315,prec:0.9941520467836257,rec:0.7446722867775498,f1:0.8398664504253546
+Test result:loss:0.8722756195700065,loss_clf:0.18450598593386658,loss_MI:0.68776963363614,prec:0.9777568922305765,rec:0.7625279691069164,f1:0.8366771527737797
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 10:19:34
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 3, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8063080326139339,loss_clf:0.11807341896111898,loss_MI:0.6882346136528149,prec:0.9883040935672515,rec:0.7325485917591181,f1:0.8298761055827952
+Test result:loss:0.806242150819264,loss_clf:0.11853485736738596,loss_MI:0.6877072934518781,prec:0.9750000000000001,rec:0.7520893336682811,f1:0.8314011079859002
+---------------------------------------------------------------------------
+Dataset:swat       Without MI    Time: 2022-08-28 10:28:45
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': False, 'number of sensors': 50} 
+Training result:loss:0.16044540749736844,loss_clf:0.16044540749736844,loss_MI:0.0,prec:0.9818713450292398,rec:0.8034416850206323,f1:0.8760196918694552
+Test result:loss:0.16495295104227567,loss_clf:0.16495295103665916,loss_MI:0.0,prec:0.9775689223057643,rec:0.7904932786511734,f1:0.8663448935568864
+---------------------------------------------------------------------------
+Dataset:swat       Without MI    Time: 2022-08-28 10:33:54
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.1, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': False, 'number of sensors': 50} 
+Training result:loss:0.16637614500359632,loss_clf:0.16637614500359632,loss_MI:0.0,prec:0.9879908103592315,rec:0.7838116074958178,f1:0.8659019220840954
+Test result:loss:0.15810033309102897,loss_clf:0.15810033158582806,loss_MI:0.0,prec:0.9667337357478204,rec:0.8016852474598953,f1:0.8681324278388017
+
+
+{'dataset': 'swat', 'sensor_emb_dim': 64, 'batch_size': 64, 'MI': True, 'slide_win': 5, 'slide_stride': 5, 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.1, 'node_dim': 128, 'node_hidden_dim': 256, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'graph_hops': 2, 'num_pers': 16, 'margine': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'random_seed': 1, 'lambda': 0.4, 'delta': 0.01, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'number of sensors': 50}
+losses:0.8387147623330312,losses_MI:0.6827365453814117,losses_clf:0.1559782169516195,Prec:0.9964788732394366,Rec:0.7554451807972935,F1:0.8512243769399396---------------------------------------------------------------------------
+Dataset:swat       Without MI    Time: 2022-08-28 10:51:35
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.1, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'MI_hidden_size2': 32, 'dropout': True, 'MI': False, 'number of sensors': 50} 
+Training result:loss:0.16637614500359632,loss_clf:0.16637614500359632,loss_MI:0.0,prec:0.9879908103592315,rec:0.7838116074958178,f1:0.8659019220840954
+Test result:loss:0.15810033309102897,loss_clf:0.15810033158582806,loss_MI:0.0,prec:0.9667337357478204,rec:0.8016852474598953,f1:0.8681324278388017
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 13:37:54
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8439389312223188,loss_clf:0.15888817286886797,loss_MI:0.6850507583534509,prec:1.0,rec:0.7694708799971955,f1:0.8602666968557041
+Test result:loss:0.8357267717421341,loss_clf:0.15138199066961788,loss_MI:0.6843447810725162,prec:0.9964912280701754,rec:0.7908299789878737,f1:0.8738457183969437
+---------------------------------------------------------------------------
+##################################################################################
+Dataset:swat       With MI.    Time: 2022-08-28 14:25:18
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8439389312223188,loss_clf:0.15888817286886797,loss_MI:0.6850507583534509,prec:1.0,rec:0.7694708799971955,f1:0.8602666968557041
+Test result:loss:[1.34326134 0.96761003 0.91380966 0.85141528 0.83137357 0.84095189
+ 0.8463559  0.8719683  0.89508073 0.91379792],loss_clf:[0.63579692 0.27757117 0.22232907 0.16565267 0.14789212 0.15301163
+ 0.15746089 0.18417478 0.20612462 0.22364167],loss_MI:[0.70746442 0.69003886 0.69148059 0.68576261 0.68348145 0.68794026
+ 0.68889501 0.68779352 0.68895611 0.69015625],prec:[1.         1.         0.99415205 0.99210526 0.99649123 0.99649123
+ 0.99356725 0.95559036 0.94945698 0.94177806],rec:[0.         0.60749981 0.67329814 0.7724988  0.79453368 0.78983443
+ 0.78995279 0.77997709 0.75760107 0.72503924],f1:[0.         0.7395078  0.79035661 0.86072362 0.8762967  0.87355266
+ 0.87220751 0.84752162 0.83162325 0.80922099]
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 15:41:50
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8439389312223188,loss_clf:0.15888817286886797,loss_MI:0.6850507583534509,prec:1.0,rec:0.7694708799971955,f1:0.8602666968557041
+Test result:loss:[1.34326134 0.96761003 0.91380966 0.85141528 0.83137357 0.84095189
+ 0.8463559  0.8719683  0.89508073 0.91379792],loss_clf:[0.63579692 0.27757117 0.22232907 0.16565267 0.14789212 0.15301163
+ 0.15746089 0.18417478 0.20612462 0.22364167],loss_MI:[0.70746442 0.69003886 0.69148059 0.68576261 0.68348145 0.68794026
+ 0.68889501 0.68779352 0.68895611 0.69015625],prec:[0.         1.         0.99415205 0.99210526 0.99649123 0.99649123
+ 0.99356725 0.95559036 0.94945698 0.94177806],rec:[0.         0.60749981 0.67329814 0.7724988  0.79453368 0.78983443
+ 0.78995279 0.77997709 0.75760107 0.72503924],f1:[0.         0.7395078  0.79035661 0.86072362 0.8762967  0.87355266
+ 0.87220751 0.84752162 0.83162325 0.80922099]
+ #####################################################################################
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 15:48:32
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 128, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.906645114144582,loss_clf:0.21541218006426077,loss_MI:0.6912329340803212,prec:0.9630541871921183,rec:0.7077128621766713,f1:0.8122816658617534
+Test result:loss:[1.26780215 0.97092736 0.96346481 0.91695391 0.87454427 0.88216996
+ 0.90103146 0.92902881 0.99237896 1.04354625],loss_clf:[0.56252185 0.27680859 0.27028341 0.22459068 0.18340489 0.18964545
+ 0.20799171 0.23582075 0.29867909 0.34910617],loss_MI:[0.7052803  0.69411878 0.6931814  0.69236324 0.69113938 0.69252451
+ 0.69303975 0.69320806 0.69369987 0.69444008],prec:[0.24137931 0.96551724 0.95977011 0.96551724 0.96305419 0.96305419
+ 0.95704583 0.94581841 0.92390644 0.92304061],rec:[0.06631809 0.58290595 0.5951564  0.70494189 0.74628553 0.74628553
+ 0.73356662 0.72619798 0.65266082 0.54834559],f1:[0.0985098  0.71718187 0.72686458 0.80782832 0.83621212 0.83621212
+ 0.8254258  0.81621386 0.75657786 0.67271063]
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 16:05:56
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 32, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8616175939379449,loss_clf:0.17731363085908322,loss_MI:0.6843039630788618,prec:0.943952802359882,rec:0.7439001264222501,f1:0.8188373573329324
+Test result:loss:[1.34451435 1.31507055 1.11258649 0.85376846 0.85481646 0.86371875
+ 0.89603367 0.93706149 0.99328797 1.11012181],loss_clf:[0.63176325 0.62407493 0.42405386 0.170643   0.17077149 0.17604358
+ 0.20564993 0.24616803 0.30201865 0.41768386],loss_MI:[0.71275111 0.69099562 0.68853262 0.68312547 0.68404497 0.68767517
+ 0.69038374 0.69089346 0.69126932 0.69243795],prec:[0.         0.07079646 0.83628319 0.96554994 0.96997472 0.97123894
+ 0.9179941  0.83421829 0.81017699 0.7020649 ],rec:[0.         0.01357986 0.42128491 0.7787716  0.78024652 0.77716259
+ 0.77645577 0.77462169 0.74063135 0.70823564],f1:[0.         0.02263661 0.52852163 0.84346769 0.84502307 0.84208353
+ 0.8111697  0.77186299 0.73909002 0.66582611]
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 16:46:22
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8748238825127399,loss_clf:0.1896476023298881,loss_MI:0.6851762801828519,prec:0.9795774647887323,rec:0.7282487856431518,f1:0.8244958298047728
+Test result:loss:[1.33384018 1.31012395 0.93918124 0.86040721 0.86882182 0.8814181
+ 0.88305278 0.89654003 0.89571315 0.9181539 ],loss_clf:[0.62832313 0.6175001  0.2505356  0.17163734 0.18376149 0.19257147
+ 0.19512668 0.20774262 0.20819845 0.22839577],loss_MI:[0.70551704 0.69262385 0.68864564 0.68876987 0.68506033 0.68884663
+ 0.68792611 0.68879742 0.68751469 0.68975813],prec:[0.         0.11627907 0.97674419 0.97125323 0.96447028 0.97125323
+ 0.97125323 0.97083795 0.97083795 0.97416021],rec:[0.         0.01749723 0.72824004 0.73931424 0.73931424 0.73737625
+ 0.73737625 0.72608057 0.72608057 0.71804255],f1:[0.         0.03025269 0.82285994 0.82782055 0.8252658  0.82680943
+ 0.82680943 0.82020867 0.82020867 0.81678188]
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 17:14:47
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8439389312223188,loss_clf:0.15888817286886797,loss_MI:0.6850507583534509,prec:1.0,rec:0.7694708799971955,f1:0.8602666968557041
+Test result:loss:[1.34326134 0.96761003 0.91380966 0.85141528 0.83137357 0.84095189
+ 0.8463559  0.8719683  0.89508073 0.91379792],loss_clf:[0.63579692 0.27757117 0.22232907 0.16565267 0.14789212 0.15301163
+ 0.15746089 0.18417478 0.20612462 0.22364167],loss_MI:[0.70746442 0.69003886 0.69148059 0.68576261 0.68348145 0.68794026
+ 0.68889501 0.68779352 0.68895611 0.69015625],prec:[0.         1.         0.99415205 0.99210526 0.99649123 0.99649123
+ 0.99356725 0.95559036 0.94945698 0.94177806],rec:[0.         0.60749981 0.67329814 0.7724988  0.79453368 0.78983443
+ 0.78995279 0.77997709 0.75760107 0.72503924],f1:[0.         0.7395078  0.79035661 0.86072362 0.8762967  0.87355266
+ 0.87220751 0.84752162 0.83162325 0.80922099]
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-28 17:37:13
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8439389312223188,loss_clf:0.15888817286886797,loss_MI:0.6850507583534509,prec:1.0,rec:0.7694708799971955,f1:0.8602666968557041
+Test result:loss:[1.34326134 0.96761003 0.91380966 0.85141528 0.83137357 0.84095189
+ 0.8463559  0.8719683  0.89508073 0.91379792],loss_clf:[0.63579692 0.27757117 0.22232907 0.16565267 0.14789212 0.15301163
+ 0.15746089 0.18417478 0.20612462 0.22364167],loss_MI:[0.70746442 0.69003886 0.69148059 0.68576261 0.68348145 0.68794026
+ 0.68889501 0.68779352 0.68895611 0.69015625],prec:[0.         1.         0.99415205 0.99210526 0.99649123 0.99649123
+ 0.99356725 0.95559036 0.94945698 0.94177806],rec:[0.         0.60749981 0.67329814 0.7724988  0.79453368 0.78983443
+ 0.78995279 0.77997709 0.75760107 0.72503924],f1:[0.         0.7395078  0.79035661 0.86072362 0.8762967  0.87355266
+ 0.87220751 0.84752162 0.83162325 0.80922099]
+---------------------------------------------------------------------------
+Dataset:swat       Without MI    Time: 2022-08-28 17:43:38
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': False, 'number of sensors': 50} 
+Training result:loss:0.1683595992219008,loss_clf:0.1683595992219008,loss_MI:0.0,prec:0.987719298245614,rec:0.7735370437382821,f1:0.8605078953639591
+Test result:loss:[0.63062346 0.25610917 0.21604802 0.16155526 0.1578703  0.16148811
+ 0.21628952 0.48188495 0.80142826 1.05316752],loss_clf:[0.63062346 0.25610917 0.21604802 0.16155526 0.1578703  0.16148811
+ 0.21628952 0.48188495 0.80142826 1.05316753],loss_MI:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],prec:[0.         0.9880117  0.99532164 0.9984051  0.99749373 0.99415205
+ 0.93430736 0.68677249 0.45232526 0.28707185],rec:[0.         0.6398338  0.69258373 0.7741842  0.77888345 0.77595947
+ 0.75952887 0.60662388 0.41851915 0.2374693 ],f1:[0.         0.76617041 0.8056816  0.86490041 0.86727754 0.86393329
+ 0.82851906 0.6242613  0.41701108 0.24559574]
+---------------------------------------------------------------------------
+Dataset:wadi       Without MI    Time: 2022-08-28 18:01:20
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': False, 'number of sensors': 127} 
+Training result:loss:0.22930116104880227,loss_clf:0.22930116104880227,loss_MI:0.0,prec:0.8636363636363636,rec:0.5096861471861472,f1:0.6276925095106914
+Test result:loss:[0.27784714 0.27784714 0.27285375 0.28468252 0.2645629  0.24513068
+ 0.24991122 0.26694846 0.27225875 0.26608633],loss_clf:[0.27784714 0.27784714 0.27285374 0.28468252 0.2645629  0.24513068
+ 0.24991122 0.26694846 0.27225875 0.26608633],loss_MI:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],prec:[0.         0.         0.13636364 0.57575758 0.61363636 0.61515152
+ 0.59848485 0.61742424 0.625      0.60984848],rec:[0.         0.         0.03787879 0.28192641 0.30692641 0.40097403
+ 0.38311688 0.39675325 0.39675325 0.36493506],f1:[0.         0.         0.05909091 0.33935786 0.37691198 0.44268989
+ 0.43149351 0.44231602 0.45205628 0.41861472]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 18:07:54
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.4, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8736301696621704,loss_clf:0.18039429548614502,loss_MI:0.6932358741760254,prec:0.9015151515151515,rec:0.6139610389610389,f1:0.6998917748917748
+Test result:loss:[1.00738401 0.9987887  0.98651913 0.98027351 0.96931322 0.95370277
+ 0.95436195 0.96039907 0.95255346 0.95458352],loss_clf:[0.30754358 0.30340266 0.28334219 0.28278715 0.27403587 0.25945199
+ 0.26094705 0.26620254 0.25822294 0.26005727],loss_MI:[0.69984042 0.69538604 0.70317694 0.69748635 0.69527735 0.69425079
+ 0.6934149  0.69419653 0.69433052 0.69452624],prec:[0.         0.         0.         0.18181818 0.67045455 0.56818182
+ 0.5530303  0.58712121 0.60227273 0.60227273],rec:[0.         0.         0.         0.06590909 0.37516234 0.39788961
+ 0.38652597 0.38652597 0.38652597 0.38652597],f1:[0.         0.         0.         0.09393939 0.45909091 0.45812672
+ 0.4403778  0.4504329  0.45952381 0.45952381]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 18:21:01
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9880311240157248,loss_clf:0.2955874662113063,loss_MI:0.6924436578044185,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.06807886 1.06185581 1.04749913 1.04131503 1.04088239 1.03833407
+ 1.03788311 1.04001186 1.04016617 1.04058808],loss_clf:[0.34509711 0.34509711 0.34509711 0.34509711 0.34509711 0.34509711
+ 0.34509711 0.34509711 0.34509711 0.34509711],loss_MI:[0.72298175 0.7167587  0.70240202 0.69621792 0.69578528 0.69323696
+ 0.692786   0.69491475 0.69506906 0.69549097],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 18:32:54
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8655408024776603,loss_clf:0.17286389183002068,loss_MI:0.6926769106476395,prec:0.8024691358024691,rec:0.5254850088183421,f1:0.6161776495109829
+Test result:loss:[1.02658923 1.02384616 1.02183252 0.97730181 0.95998914 0.95115431
+ 0.9488508  0.96155881 0.97069703 0.97289609],loss_clf:[0.32711608 0.32711608 0.32711608 0.28274853 0.26584822 0.25746502
+ 0.25611774 0.26725343 0.27654742 0.27887287],loss_MI:[0.69947315 0.69673008 0.69471644 0.69455328 0.69414093 0.69368929
+ 0.69273306 0.69430538 0.69414961 0.69402322],prec:[0.         0.         0.         0.64705882 0.6372549  0.69607843
+ 0.7254902  0.69607843 0.70588235 0.73529412],rec:[0.         0.         0.         0.20408497 0.39803922 0.39803922
+ 0.38333333 0.38333333 0.37598039 0.35392157],f1:[0.         0.         0.         0.29598506 0.4535014  0.47282913
+ 0.46302521 0.45714286 0.45589509 0.44929972]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 19:13:35
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9414639220772388,loss_clf:0.24764586063715954,loss_MI:0.6938180614400793,prec:0.7037037037037037,rec:0.2649911816578483,f1:0.3760141093474427
+Test result:loss:[1.02141557 1.02524158 1.0198135  1.00485198 0.99143554 0.98016543
+ 0.98701499 0.98970371 1.00498001 1.0023421 ],loss_clf:[0.32711608 0.32711608 0.3248533  0.31021953 0.29707984 0.28618095
+ 0.29279993 0.2949037  0.31019439 0.30742318],loss_MI:[0.69429949 0.6981255  0.6949602  0.69463245 0.6943557  0.69398448
+ 0.69421507 0.69480001 0.69478562 0.69491892],prec:[0.         0.         0.         0.23529412 0.41176471 0.58823529
+ 0.58823529 0.58823529 0.44117647 0.47058824],rec:[0.         0.         0.         0.05098039 0.14166667 0.19068627
+ 0.17598039 0.17598039 0.14656863 0.16127451],f1:[0.         0.         0.         0.08347339 0.18786181 0.26349206
+ 0.24780579 0.24780579 0.19878618 0.21727358]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 19:31:46
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 55, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8474608451263477,loss_clf:0.1549183385375177,loss_MI:0.6925425065888299,prec:0.8549382716049382,rec:0.5270282186948855,f1:0.622770028325584
+Test result:loss:[1.01686724 1.00912944 0.99155863 1.00524929 0.96676619 0.92248028
+ 0.92154191 0.94561989 0.96626041 0.9996015 ],loss_clf:[0.30913505 0.30913505 0.2989043  0.31187588 0.27141427 0.22947314
+ 0.22897241 0.25121442 0.27147991 0.30632319],loss_MI:[0.70773219 0.69999439 0.69265433 0.69337341 0.69535192 0.69300714
+ 0.6925695  0.69440547 0.6947805  0.69327832],prec:[0.         0.         0.17647059 0.38235294 0.59803922 0.70588235
+ 0.70588235 0.64705882 0.58823529 0.38235294],rec:[0.         0.         0.04901961 0.13186275 0.24467787 0.32030812
+ 0.30455182 0.22415966 0.17514006 0.0785014 ],f1:[0.         0.         0.07647059 0.19215686 0.33968254 0.4302521
+ 0.41397165 0.3220949  0.25798319 0.12875817]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 19:38:21
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 70, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9879612806175246,loss_clf:0.2955874662113063,loss_MI:0.6923738144062184,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.0735881  1.06086179 1.04712335 1.04522085 1.04446793 1.03769626
+ 1.04196903 1.04288897 1.04252295 1.04271215],loss_clf:[0.34509711 0.34509711 0.34509711 0.34509711 0.34509711 0.34509711
+ 0.34509711 0.34509711 0.34509711 0.34509711],loss_MI:[0.72849099 0.71576468 0.70202624 0.70012374 0.69937083 0.69259916
+ 0.69687192 0.69779186 0.69742584 0.69761504],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-28 19:43:50
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 60, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9880822007811384,loss_clf:0.2955874662113063,loss_MI:0.6924947345698321,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.0614973  1.0638298  1.04712594 1.04189884 1.04005621 1.03772491
+ 1.03897783 1.04036908 1.0406873  1.04089255],loss_clf:[0.34509711 0.34509711 0.34509711 0.34509711 0.34509711 0.34509711
+ 0.34509711 0.34509711 0.34509711 0.34509711],loss_MI:[0.71640019 0.71873269 0.70202884 0.69680173 0.6949591  0.69262781
+ 0.69388073 0.69527198 0.69559019 0.69579544],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 08:14:48
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 60, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9880822007811384,loss_clf:0.2955874662113063,loss_MI:0.6924947345698321,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.0614973  1.0638298  1.04712594 1.04189884 1.04005621 1.03772491
+ 1.03897783 1.04036908 1.0406873  1.04089255],loss_clf:[0.34509711 0.34509711 0.34509711 0.34509711 0.34509711 0.34509711
+ 0.34509711 0.34509711 0.34509711 0.34509711],loss_MI:[0.71640019 0.71873269 0.70202884 0.69680173 0.6949591  0.69262781
+ 0.69388073 0.69527198 0.69559019 0.69579544],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 08:22:08
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 50, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9881105218177245,loss_clf:0.2955874662113063,loss_MI:0.6925230556064181,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.06105423 1.05788064 1.04482731 1.04524493 1.04309148 1.03755916
+ 1.03990214 1.04164959 1.04135555 1.04147616],loss_clf:[0.34509711 0.34509711 0.34509711 0.34509711 0.34509711 0.34509711
+ 0.34509711 0.34509711 0.34509711 0.34514534],loss_MI:[0.71595712 0.71278354 0.6997302  0.70014783 0.69799438 0.69246205
+ 0.69480504 0.69655248 0.69625844 0.69633082],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 08:30:40
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 40, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9880394708735728,loss_clf:0.2955874662113063,loss_MI:0.6924520046622665,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.06925905 1.0629706  1.04471902 1.04144972 1.03895861 1.03770157
+ 1.03807546 1.0387796  1.03928579 1.03993266],loss_clf:[0.34509711 0.34509711 0.34509711 0.34509711 0.34509711 0.34509711
+ 0.34509711 0.34509711 0.34509711 0.34509711],loss_MI:[0.72416194 0.7178735  0.69962191 0.69635261 0.6938615  0.69260446
+ 0.69297835 0.69368249 0.69418868 0.69483555],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 08:51:52
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 55, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8474608451263477,loss_clf:0.1549183385375177,loss_MI:0.6925425065888299,prec:0.8549382716049382,rec:0.5270282186948855,f1:0.622770028325584
+Test result:loss:[1.01686724 1.00912944 0.99155863 1.00524929 0.96676619 0.92248028
+ 0.92154191 0.94561989 0.96626041 0.9996015 ],loss_clf:[0.30913505 0.30913505 0.2989043  0.31187588 0.27141427 0.22947314
+ 0.22897241 0.25121442 0.27147991 0.30632319],loss_MI:[0.70773219 0.69999439 0.69265433 0.69337341 0.69535192 0.69300714
+ 0.6925695  0.69440547 0.6947805  0.69327832],prec:[0.         0.         0.17647059 0.38235294 0.59803922 0.70588235
+ 0.70588235 0.64705882 0.58823529 0.38235294],rec:[0.         0.         0.04901961 0.13186275 0.24467787 0.32030812
+ 0.30455182 0.22415966 0.17514006 0.0785014 ],f1:[0.         0.         0.07647059 0.19215686 0.33968254 0.4302521
+ 0.41397165 0.3220949  0.25798319 0.12875817]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 09:02:52
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9414639220772388,loss_clf:0.24764586063715954,loss_MI:0.6938180614400793,prec:0.7037037037037037,rec:0.2649911816578483,f1:0.3760141093474427
+Test result:loss:[1.02141557 1.02524158 1.0198135  1.00485198 0.99143554 0.98016543
+ 0.98701499 0.98970371 1.00498001 1.0023421 ],loss_clf:[0.32711608 0.32711608 0.3248533  0.31021953 0.29707984 0.28618095
+ 0.29279993 0.2949037  0.31019439 0.30742318],loss_MI:[0.69429949 0.6981255  0.6949602  0.69463245 0.6943557  0.69398448
+ 0.69421507 0.69480001 0.69478562 0.69491892],prec:[0.         0.         0.         0.23529412 0.41176471 0.58823529
+ 0.58823529 0.58823529 0.44117647 0.47058824],rec:[0.         0.         0.         0.05098039 0.14166667 0.19068627
+ 0.17598039 0.17598039 0.14656863 0.16127451],f1:[0.         0.         0.         0.08347339 0.18786181 0.26349206
+ 0.24780579 0.24780579 0.19878618 0.21727358]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 09:13:17
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 45, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.92259320323295,loss_clf:0.22969103559480702,loss_MI:0.6929021676381429,prec:0.7592592592592593,rec:0.34797178130511464,f1:0.45493827160493827
+Test result:loss:[1.00669171 1.00535835 0.98169266 0.97339821 0.95506291 0.95171503
+ 0.94931283 0.95791222 0.9690965  0.98029493],loss_clf:[0.30913505 0.30913505 0.28694506 0.27928498 0.2614798  0.25863307
+ 0.2563333  0.26394245 0.27498685 0.28582935],loss_MI:[0.69755666 0.6962233  0.69474761 0.69411323 0.69358311 0.69308195
+ 0.69297953 0.69396977 0.69410965 0.69446559],prec:[0.         0.         0.35294118 0.35294118 0.64705882 0.70588235
+ 0.67647059 0.61764706 0.52941176 0.52941176],rec:[0.         0.         0.08039216 0.08039216 0.21960784 0.29705882
+ 0.25588235 0.19509804 0.16568627 0.16568627],f1:[0.         0.         0.13053221 0.13053221 0.3022409  0.39551821
+ 0.34621849 0.28935574 0.24705882 0.24705882]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 09:19:38
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 42, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 55, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9770489749399218,loss_clf:0.2840032219200945,loss_MI:0.6930457530198274,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.06022465 1.05187068 1.04688906 1.04636467 1.04580774 1.04329602
+ 1.04579019 1.04659165 1.04630131 1.04650651],loss_clf:[0.35026436 0.35026436 0.35026436 0.35026751 0.35026436 0.35026436
+ 0.35026436 0.35026436 0.35028514 0.35028233],loss_MI:[0.70996029 0.70160632 0.6966247  0.69609716 0.69554338 0.69303167
+ 0.69552584 0.69632729 0.69601617 0.69622419],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 09:32:27
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 55, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.99272849964903,loss_clf:0.2995713963224444,loss_MI:0.6931571033265855,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.00774853 1.00813664 1.00991704 1.01362616 1.01203397 1.00624146
+ 1.00717677 1.01040755 1.01119193 1.00911863],loss_clf:[0.31327919 0.31327919 0.31327919 0.31327919 0.31327991 0.31327919
+ 0.31327919 0.31327919 0.31327919 0.31327582],loss_MI:[0.69446934 0.69485745 0.69663785 0.70034697 0.69875405 0.69296227
+ 0.69389758 0.69712836 0.69791275 0.6958428 ],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 09:40:45
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9926543823770415,loss_clf:0.2995713963224444,loss_MI:0.6930829860545971,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.00799509 1.01096319 1.01213686 1.01089854 1.00842576 1.00757027
+ 1.00625706 1.00839178 1.00913113 1.00968969],loss_clf:[0.31327919 0.31327919 0.31327919 0.31327919 0.31327991 0.31328105
+ 0.31327919 0.31328204 0.31327919 0.31327919],loss_MI:[0.6947159  0.697684   0.69885767 0.69761935 0.69514585 0.69428922
+ 0.69297787 0.69510974 0.69585194 0.6964105 ],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 10:32:52
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8836340889645155,loss_clf:0.19084192500967467,loss_MI:0.6927921639548408,prec:0.7962962962962964,rec:0.48694885361552037,f1:0.5772887606220939
+Test result:loss:[1.04247572 1.04238944 1.02892754 1.02266857 1.00628263 0.98654351
+ 0.98979307 0.9898365  0.99110011 1.0044432 ],loss_clf:[0.34917322 0.34917322 0.33569134 0.32955401 0.31189069 0.2933785
+ 0.29694951 0.29577909 0.29711639 0.31066517],loss_MI:[0.69330249 0.69321622 0.6932362  0.69311456 0.69439194 0.693165
+ 0.69284356 0.6940574  0.69398372 0.69377802],prec:[0.         0.         0.17647059 0.29411765 0.5        0.67647059
+ 0.67647059 0.67647059 0.56862745 0.50980392],rec:[0.         0.         0.04271709 0.07072829 0.14145658 0.28197946
+ 0.33753501 0.28524743 0.23132586 0.2019141 ],f1:[0.         0.         0.06764706 0.11176471 0.21531279 0.3747984
+ 0.4248366  0.38366013 0.31568627 0.27628385]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 11:05:02
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.8, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9458192052357757,loss_clf:0.2527314110731666,loss_MI:0.6930877941626089,prec:0.48148148148148145,rec:0.16196355085243977,f1:0.23403880070546737
+Test result:loss:[1.00658944 1.00734336 1.00738378 0.98763295 0.98217929 0.97818334
+ 0.98218464 0.99296022 1.00668356 1.00934736],loss_clf:[0.31327919 0.31327919 0.31329869 0.29353958 0.28831763 0.28514026
+ 0.28894081 0.29879032 0.31241037 0.31521059],loss_MI:[0.69331025 0.69406417 0.69408509 0.69409336 0.69386166 0.69304308
+ 0.69324383 0.6941699  0.69427319 0.69413676],prec:[0.         0.         0.         0.32352941 0.35294118 0.52941176
+ 0.29411765 0.23529412 0.11764706 0.11764706],rec:[0.         0.         0.         0.07605042 0.07605042 0.16813725
+ 0.06764706 0.05588235 0.02941176 0.02647059],f1:[0.         0.         0.         0.12058824 0.1245098  0.22996481
+ 0.10980392 0.09019608 0.04705882 0.04313725]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 11:21:31
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.7, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9926355075728627,loss_clf:0.2995713963224444,loss_MI:0.6930641112504182,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.00752077 1.0083399  1.00909816 1.00858949 1.00832973 1.00697242
+ 1.006459   1.00862345 1.00853813 1.00810865],loss_clf:[0.31327919 0.31327919 0.31327919 0.31327919 0.31327919 0.31327919
+ 0.31327919 0.31327919 0.31327919 0.31327919],loss_MI:[0.69424158 0.69506071 0.69581897 0.69531031 0.69505054 0.69369323
+ 0.69317981 0.69534426 0.69525894 0.69482946],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 12:50:10
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 15, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.05, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9924718354258888,loss_clf:0.2995713963224444,loss_MI:0.6929004391034445,prec:0.0,rec:0.0,f1:0.0
+Test result:loss:[1.00779604 1.00962129 1.00957295 1.01219925 1.00957963 1.00641679
+ 1.00655455 1.00951154 1.00980523 1.0088869 ],loss_clf:[0.31327919 0.31327919 0.31327919 0.31327981 0.31327919 0.31327919
+ 0.31327919 0.31327919 0.31327919 0.31326943],loss_MI:[0.69451685 0.6963421  0.69629376 0.69891944 0.69630044 0.6931376
+ 0.69327536 0.69623235 0.69652604 0.69561748],prec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],rec:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.],f1:[0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+---------------------------------------------------------------------------
+###########################################################################
+Dataset:wadi       With MI.    Time: 2022-08-29 14:01:50
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 20, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8591687823916294,loss_clf:0.16664182819992698,loss_MI:0.6925269541917024,prec:0.8456790123456791,rec:0.5191358024691358,f1:0.6239271017048797
+Test result:loss:[0.94377491 0.94572202 0.93122957 0.90724945 0.87052451 0.90484954
+ 0.92606906 0.92537026 0.93425429 0.96722631],loss_clf:[0.25030522 0.25030522 0.23856085 0.21433454 0.17413059 0.21220214
+ 0.2335563  0.23020479 0.23981868 0.27444692],loss_MI:[0.69346969 0.6954168  0.69266873 0.69291491 0.69639391 0.6926474
+ 0.69251276 0.69516546 0.69443561 0.69277938],prec:[0.         0.         0.23529412 0.41176471 0.83333333 0.64607843
+ 0.64215686 0.66666667 0.60294118 0.50490196],rec:[0.         0.         0.08333333 0.18627451 0.43529412 0.51078431
+ 0.52058824 0.48137255 0.44509804 0.41568627],f1:[0.         0.         0.11876751 0.24033613 0.53697479 0.52689076
+ 0.52630507 0.52394958 0.48263305 0.43548086]
+ ###########################################################################
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 14:20:44
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 25, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8711928378330346,loss_clf:0.17882791776436432,loss_MI:0.6923649200686702,prec:0.8888888888888888,rec:0.5035273368606702,f1:0.6085537918871252
+Test result:loss:[0.99332844 0.99374128 0.99543334 0.99528179 0.90639008 0.90467366
+ 0.9302236  0.95188798 0.98326336 0.95867272],loss_clf:[0.29930794 0.29930794 0.29930794 0.29843657 0.21185307 0.21223317
+ 0.23605415 0.25593342 0.28783935 0.26465455],loss_MI:[0.6940205  0.69443334 0.6961254  0.69684522 0.69453701 0.69244049
+ 0.69416945 0.69595456 0.69542401 0.69401817],prec:[0.         0.         0.         0.         0.79411765 0.75490196
+ 0.79411765 0.61764706 0.52941176 0.60784314],rec:[0.         0.         0.         0.         0.41911765 0.38970588
+ 0.30735294 0.24607843 0.19460784 0.24558824],f1:[0.         0.         0.         0.         0.51335201 0.49202954
+ 0.4130719  0.33053221 0.24817927 0.33394449]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 14:33:16
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 20, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.7, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9089675225694046,loss_clf:0.2159608348752789,loss_MI:0.6930066876941257,prec:0.7222222222222222,rec:0.4049382716049383,f1:0.5058895836673615
+Test result:loss:[0.94384068 0.94386178 0.91704413 0.92563033 0.92566821 0.88786752
+ 0.87525299 0.89207237 0.90274967 0.93387915],loss_clf:[0.25030522 0.25030522 0.22267503 0.23169439 0.2303529  0.19271568
+ 0.18235433 0.19744889 0.20797985 0.23943752],loss_MI:[0.69353546 0.69355656 0.6943691  0.69393593 0.69531531 0.69515184
+ 0.69289866 0.69462348 0.69476982 0.69444162],prec:[0.         0.         0.47058824 0.47058824 0.41176471 0.70588235
+ 0.69607843 0.62254902 0.59803922 0.49019608],rec:[0.         0.         0.20294118 0.20294118 0.20294118 0.44509804
+ 0.50882353 0.52352941 0.43529412 0.39607843],f1:[0.         0.         0.25406162 0.25406162 0.23053221 0.47647059
+ 0.52913165 0.51755369 0.44677871 0.39005602]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 14:38:59
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 20, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 35, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.5, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9451168099279553,loss_clf:0.25111265174899,loss_MI:0.6940041581789652,prec:0.6481481481481481,rec:0.26522633744855967,f1:0.35485008818342145
+Test result:loss:[0.94372951 0.94377451 0.9395669  0.94186801 0.94570373 0.88049771
+ 0.93285821 0.95357876 0.90584115 0.92819178],loss_clf:[0.25030522 0.25030522 0.24099595 0.24650561 0.24895247 0.18659295
+ 0.23701097 0.25797162 0.2094127  0.23265847],loss_MI:[0.69342429 0.69346929 0.69857095 0.6953624  0.69675126 0.69390476
+ 0.69584724 0.69560714 0.69642845 0.69553331],prec:[0.         0.         0.11764706 0.32352941 0.32352941 0.76470588
+ 0.38235294 0.35294118 0.70588235 0.5       ],rec:[0.         0.         0.03137255 0.11666667 0.09705882 0.27254902
+ 0.12843137 0.14509804 0.18921569 0.1627451 ],f1:[0.         0.         0.04901961 0.16470588 0.14705882 0.38151261
+ 0.19047619 0.19943978 0.29607843 0.24145658]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 15:04:43
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 20, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9094784528460008,loss_clf:0.21655915218385413,loss_MI:0.6929193006621467,prec:0.7870370370370371,rec:0.40617283950617283,f1:0.5049970605526161
+Test result:loss:[0.98347062 0.98324785 0.9561819  0.97189917 0.97036549 0.88358316
+ 0.89145344 0.92514361 0.94473551 0.93728141],loss_clf:[0.29009574 0.29009574 0.26249498 0.27798928 0.27408533 0.19069519
+ 0.19778955 0.23086414 0.25016103 0.2430654 ],loss_MI:[0.69337488 0.69315211 0.69368692 0.69390989 0.69628016 0.69288797
+ 0.69366389 0.69427947 0.69457449 0.69421601],prec:[0.         0.         0.41176471 0.35294118 0.58823529 0.7745098
+ 0.74509804 0.76470588 0.74509804 0.74509804],rec:[0.         0.         0.14901961 0.14411765 0.24705882 0.5254902
+ 0.50294118 0.38529412 0.38529412 0.39705882],f1:[0.         0.         0.20196078 0.18823529 0.32941176 0.58935574
+ 0.56736695 0.48655462 0.48291317 0.49831933]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 15:17:07
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 20, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 25, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.9084855210343951,loss_clf:0.2154575346138696,loss_MI:0.6930279864205254,prec:0.7777777777777778,rec:0.38827160493827156,f1:0.49218106995884775
+Test result:loss:[0.98351307 0.98054224 0.96127888 0.96071705 0.94570598 0.90892356
+ 0.91918233 0.93924921 0.95533732 0.95767153],loss_clf:[0.29009574 0.28768684 0.26756253 0.26674485 0.25152092 0.21576447
+ 0.22615207 0.24516699 0.2609964  0.26342108],loss_MI:[0.69341734 0.69285539 0.69371635 0.6939722  0.69418507 0.69315909
+ 0.69303026 0.69408222 0.69434092 0.69425045],prec:[0.         0.         0.41176471 0.41176471 0.58823529 0.70588235
+ 0.70588235 0.60294118 0.57352941 0.67647059],rec:[0.         0.         0.17843137 0.17843137 0.22941176 0.37941176
+ 0.43823529 0.41176471 0.35294118 0.31470588],f1:[0.         0.         0.23137255 0.23137255 0.31092437 0.47492997
+ 0.50602241 0.45266106 0.42142857 0.40910364]
+---------------------------------------------------------------------------
+Dataset:wadi       With MI.    Time: 2022-08-29 15:28:10
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 20, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.0001, 'random_seed': 0, 'dataset': 'wadi', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 45, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 16, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.6, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 127} 
+Training result:loss:0.8739603231083074,loss_clf:0.18126750905841005,loss_MI:0.6926928140498974,prec:0.7765432098765432,rec:0.5150793650793651,f1:0.5947303725081503
+Test result:loss:[0.96386852 0.94460485 0.94685551 0.98911567 0.90956212 0.88548493
+ 0.90007413 0.92409514 0.94916261 0.98600507],loss_clf:[0.27020048 0.25165978 0.25272074 0.29454602 0.21354485 0.19278282
+ 0.20499195 0.22843777 0.25492151 0.29186666],loss_MI:[0.69366804 0.69294507 0.69413478 0.69456965 0.69601727 0.69270211
+ 0.69508218 0.69565737 0.6942411  0.69413841],prec:[0.         0.29411765 0.17647059 0.35294118 0.52941176 0.6254902
+ 0.66666667 0.54901961 0.39215686 0.29901961],rec:[0.         0.08856209 0.05588235 0.10816993 0.29346405 0.45359477
+ 0.39803922 0.34411765 0.30457516 0.2503268 ],f1:[0.         0.13315508 0.08235294 0.16256684 0.3451999  0.5106325
+ 0.47871148 0.39747899 0.314605   0.24733894]
+---------------------------------------------------------------------------
+Dataset:swat       With MI.    Time: 2022-08-29 16:51:21
+Experiment config:{'sensor_emb_dim': 64, 'slide_win': 5, 'slide_stride': 5, 'batch_size': 64, 'delta': 0.01, 'random_seed': 1, 'dataset': 'swat', 'class number': 2, 'l': 5000, 'train_size_ratio': 0.5, 'eval_size_ratio': 0.2, 'node_dim': 128, 'epoches': 500, 'device': device(type='cuda'), 'dev_hidden_dim1': 64, 'dev_hidden_dim2': 32, 'topk': 15, 'epsilon': 0.09, 'max_iter': 10, 'node_hidden_dim': 256, 'graph_hops': 2, 'num_pers': 12, 'margin': 5, 'threshold': 1.96, 'lr': 0.0001, 'patience': 10, 'bias': True, 'batch_norm': True, 'lambda': 0.4, 'MI_hidden_size1': 64, 'test': True, 'MI_hidden_size2': 32, 'dropout': True, 'MI': True, 'number of sensors': 50} 
+Training result:loss:0.8372587723261772,loss_clf:0.15461167504752849,loss_MI:0.6826470972786487,prec:0.9953051643192489,rec:0.7948061719188478,f1:0.8750759349440472
+Test result:loss:[1.36948054 1.02556702 0.92359814 0.86923227 0.86718138 0.87469471
+ 0.87444969 0.87496551 0.87471059 0.8828851 ],loss_clf:[0.6671303  0.33177755 0.2356819  0.18699872 0.18429618 0.18850725
+ 0.18633986 0.18588715 0.18627544 0.19435551],loss_MI:[0.70235024 0.69378947 0.68791625 0.68223355 0.68288519 0.68618746
+ 0.68810983 0.68907837 0.68843515 0.68852959],prec:[0.         0.99418605 0.99086379 0.99086379 0.99418605 0.99031008
+ 0.99086379 0.98682171 0.99127907 0.99418605],rec:[0.         0.66417917 0.7223875  0.77585909 0.77876607 0.77710494
+ 0.77876607 0.77876607 0.78233749 0.77536075],f1:[0.         0.7705659  0.82034474 0.85773299 0.86019537 0.8578323
+ 0.85970137 0.85635986 0.86231658 0.85849015]
